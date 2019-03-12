@@ -1,3 +1,8 @@
+This is a fork of [ale-sensible](https://github.com/desmap/ale-sensible) with colors by [ayu.vim](https://github.com/ayu-theme/ayu-vim/blob/master/colors/ayu.vim).
+
+I know it's weird to have a customized version of a plugin that's supposed to reduce customization, but I did it anyway. I am the worst.
+
+---
 <img src='https://user-images.githubusercontent.com/43666255/50661376-413b4500-0fa3-11e9-9bd4-7248514f576a.png' width=35%/>
 
 **`:PlugInstall` sensible defaults for ALE and enjoy an intuitive asynchronous linter out of the box.**
@@ -12,7 +17,7 @@ It's ok to spend time configuring your editor but your linter? Don't waste time 
 
 <img src='https://user-images.githubusercontent.com/43666255/51756005-4a11c900-20c0-11e9-882b-931ef83cdeb6.gif' width=70%>
 
-No more broken colorthemes, no dull grey sign coulmn/gutter anymore, ALE SENSIBLE works with any colortheme (dark and light ones). Subtle, non-obtrusive, well-balanced highlights signal errors exactly where they are keeping the gutter free for git tools and markers.  
+No more broken colorthemes, no dull grey sign coulmn/gutter anymore, ALE SENSIBLE works with any colortheme (dark and light ones). Subtle, non-obtrusive, well-balanced highlights signal errors exactly where they are keeping the gutter free for git tools and markers.
 <img src='https://user-images.githubusercontent.com/43666255/51017575-c8c11f00-1574-11e9-97f6-58c8a88f79bc.png' width=100%/>
 
 ## ALE SENSIBLE vs ALE–save time and feel good again
@@ -21,22 +26,22 @@ No more broken colorthemes, no dull grey sign coulmn/gutter anymore, ALE SENSIBL
 - **No more stuttery, jumpy sign column/gutter** shaking up your code, pumping the screen in and out
 - **Easy quick-switching of buffers** without laggy linter engines bumping the gutter in your face two seconds later
 - **No nervous ALE blinking and sending false warnings for the current line** while you type and try to code
-- **Intuitve highlighting there where you expect**, right in the lines where errors are and not somewhere outside 
+- **Intuitve highlighting there where you expect**, right in the lines where errors are and not somewhere outside
 - **No obstrusive, plump default highlighting**, marked lines are still easy to read and edit
 - **Kicks in when it's right:** in Normal Mode always and in Insert Mode only after leaving Insert Mode
 - **No intentionally delayed linting**, responsive linting always after 0ms (ALE sets an extra 200ms delay)
-- **Don't clutter your .vimrc/init.vim with ALE settings** you won't understand months later, keep your config clean 
+- **Don't clutter your .vimrc/init.vim with ALE settings** you won't understand months later, keep your config clean
 - **No bloat in your .vimrc/init.vim**, no fiddling around, no trial and error, it's just one line
 - **No mess with other sign-column/gutter tools** which are more important (e.g. git tools, markers)
 - **One-step removal and adding back** of ALE SENSIBLE, ALE and their configuration, if `:ALEToggle` is not enough
 - **Experience Vim/Neovim as what they are**, slick, minmalistic editors, not some jarring Frankenstein-IDEs
 - **Fully documented plugin file**, quickly understand what has changed, be able to do custom stuff yourself if required
 
-**Linters are overrated:** Actually most of us are less productive with linters than without because of 'configuration porn', finding right settings, getting the linter fast, fixing wrong linter warnings or testing different linting engines for days. Only because ALE is asynchronous doesn't make it less distracting. 
+**Linters are overrated:** Actually most of us are less productive with linters than without because of 'configuration porn', finding right settings, getting the linter fast, fixing wrong linter warnings or testing different linting engines for days. Only because ALE is asynchronous doesn't make it less distracting.
 
 ## Install and never touch your linter again
 
-**No more half-baken ALE,** no more time-wasting, just add one line. 
+**No more half-baken ALE,** no more time-wasting, just add one line.
 
 ### Install with vim-plug
 Add
@@ -54,7 +59,7 @@ to your .vimrc/init.vim, restart Vim/Neovim and run `:PlugInstall` in your .vimr
 
 ## Final steps and you are ready to go
 
-### Remove redundant plugins 
+### Remove redundant plugins
 If you have already a line with `'w0rp/ale'`, remove this line (because we have to make sure that some of the new overriding configs load before ALE loads, some ALE oddity, hence the order in the install lines above).
 
 ### Install linter/fixer engines
@@ -68,4 +73,4 @@ Still think some sensible defaults are missing? Open a pull request!
 ALE SENSIBLE, MIT License, Copyright (c) 2019 desmap
 
 ---
-You like a good looking editor? Checkout https://github.com/desmap/slick 
+You like a good looking editor? Checkout https://github.com/desmap/slick
